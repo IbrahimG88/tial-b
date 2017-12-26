@@ -1,4 +1,5 @@
 # TialB
+MEAN-app boilerplate with API set accessible on port 3000
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
