@@ -1,0 +1,59 @@
+
+<div class="col-md-8 col-md-offset-2">
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="form-group">
+            <label for="creator">
+        Creator
+    </label>
+            <input type="text" id="creator" class="form-control" ngModel name="creator" required>
+
+            <label for="user">
+                User
+            </label>
+            <input type="text" id="user" class="form-control" ngModel name="user" required>
+
+            <label for="groupName">
+                        GroupName
+                    </label>
+            <input type="text" id="groupName" class="form-control" ngModel name="groupName" required>
+
+            <label for="location">
+                            Location
+                            </label>
+            <input type="text" id="location" class="form-control" ngModel name="location" required>
+
+
+            <label for="date">
+              Date
+                </label>
+            <input type="date" id="date" class="form-control" ngModel name="date" required>
+
+
+            <label for="startTime">
+              StartTime
+                  </label>
+              <input type="time" id="startTime" class="form-control" ngModel name="startTime" required>
+  
+
+            <label for="finishTime">
+                FinishTime
+                    </label>
+                <input type="time" id="finishTime" class="form-control" ngModel name="finishTime" required>
+    
+                <label for="status">
+                    Status
+                        </label>
+                    <input type="text" id="status" class="form-control" ngModel name="status" required>
+        
+                    <label for="evaluation">
+                       Evaluation
+                            </label>
+                        <input type="text" id="evaluation" class="form-control" ngModel name="evaluation" required>
+            
+        </div>
+        <button class="btn btn-primary" type="submit">Save</button>
+
+    </form>
+</div>
+
+<!-- fix the form to be for the event items -->

@@ -1,0 +1,1 @@
+// an angular mock or model for user credentials
